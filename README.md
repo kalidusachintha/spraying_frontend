@@ -1,6 +1,4 @@
-# spraying_frontend
-
-## Project Setup
+## Installation Guide
 
 ```sh
 npm install
