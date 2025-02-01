@@ -1,11 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
 import { useAuthStore } from "../stores/auth.js";
 import Login from "../components/Login.vue";
-import SparyingItems from "../components/SparyingItems.vue";
+import SprayingItems from "@/components/SprayingItems.vue";
+import SprayingForm from "@/components/SprayingForm.vue";
 
 
 const routes = [
-    { path: "/", component: SparyingItems, meta: { requiresAuth: true } },
+    { path: "/", component: SprayingItems, meta: { requiresAuth: true } },
+    { path: "/create", component: SprayingForm, meta: { requiresAuth: true } },
     { path: "/login", component: Login },
 ];
 
