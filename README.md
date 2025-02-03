@@ -16,7 +16,7 @@ npm run dev
 npm run build
 ```
 
-### Change the API URL 
+### Change the API URL
 ```sh
 go to src/plugins/axios.js
 
